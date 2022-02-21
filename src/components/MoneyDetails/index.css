@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.md-container {
+  display: flex;
+  flex-direction: row;
+}
+.md-card1-container {
+  border: 2px #7e858e solid;
+  background-color: #ecfccb;
+  margin-left: 40px;
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+}
+.md-card1-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image1 {
+  width: 20%;
+  margin: 20px;
+}
+.md-para1 {
+  height: 20px;
+  color: #334155;
+  font-size: 20px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.md-para2 {
+  color: #040608;
+  margin-top: 1px;
+  height: 20px;
+  font-size: 20px;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+.md-card2-container {
+  border: 2px #7e858e solid;
+  background-color: #cffafe;
+  margin-left: 40px;
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+}
+.md-card3-container {
+  border: 2px #7e858e solid;
+  background-color: #ede9fe;
+  margin-left: 40px;
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+}

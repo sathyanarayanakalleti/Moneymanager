@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.list-detail {
+  list-style-type: none;
+}
+.list-container {
+  display: flex;
+}
+
+.delete-image {
+  margin-top: 16px;
+  width: 14%;
+  height: 50%;
+  padding-left: 50px;
+}
+.head-title1 {
+  font-size: 20px;
+  padding-left: 15px;
+  width: 150px;
+}
+.head-amount1 {
+  font-size: 20px;
+  text-align: center;
+  width: 180px;
+}
+.head-balance1 {
+  font-size: 20px;
+  text-align: center;
+
+  width: 150px;
+}
