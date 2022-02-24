@@ -41,7 +41,7 @@ class MoneyManager extends Component {
 
     this.setState({Title: ''})
     this.setState({Amount: ''})
-    this.setState({Type: 'Income'})
+    this.setState({Type: transactionTypeOptions[0].optionId})
   }
 
   onDeleteTransaction = id => {
@@ -165,9 +165,15 @@ class MoneyManager extends Component {
 
             <ul className="tran-detail">
               <li className="head-container history1-container">
-                <p className="head-title">Title</p>
-                <p className="head-amount">Amount</p>
-                <p className="head-balance">Type</p>
+                <label htmlFor="Title" className="head-title">
+                  Title
+                </label>
+                <label htmlFor="Amount" className="head-amount">
+                  Amount
+                </label>
+                <label htmlFor="Type" className="head-balance">
+                  Type
+                </label>
               </li>
               {transactions.map(eachItem => (
                 <TransactionFullDetails
